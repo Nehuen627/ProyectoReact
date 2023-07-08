@@ -1,0 +1,14 @@
+.Carrito{
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar{
+    background-color: #ce9ffa !important;
+}
+
+.itemListContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

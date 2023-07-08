@@ -1,10 +1,17 @@
+import "./App.css";
+import NavBar from "./components/NavBar";
+import ItemListCointainer from "./components/ItemListContainer";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>primer cambio</p>
+        <NavBar/>
       </header>
+      <body>
+        <ItemListCointainer greeting="Bienvenido al Kiosco Gamer"/>
+      </body>
     </div>
   );
 }
