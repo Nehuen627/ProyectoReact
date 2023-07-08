@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CardWidget from './CardWidget';
+import Button from 'react-bootstrap/esm/Button';
 import "../App.css";
 
 const NavBar = () => {
@@ -24,7 +25,9 @@ const NavBar = () => {
             <Nav>
             <CardWidget/>
             </Nav>
+            <Button id="loginBtn" className='bg-dark btnLogin'>Login</Button>
         </Navbar.Collapse>
+
         </Container>
     </Navbar>
     )

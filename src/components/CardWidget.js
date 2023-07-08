@@ -6,7 +6,7 @@ const CardWidget = () => {
     return (
         <div className='Carrito'>
             <Minecart/>
-            <h5>{ totalProductos }</h5>
+            <h5 className='CarritoNum'>{ totalProductos }</h5>
         </div>
     )
 }

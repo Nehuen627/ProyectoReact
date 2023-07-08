@@ -1,10 +1,15 @@
 .Carrito{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
-
+.CarritoNum{
+    margin-bottom: 0;
+}
 .navbar{
     background-color: #ce9ffa !important;
+}
+.btnLogin{
+    margin-left: 10px;
 }
 
 .itemListContainer{
