@@ -17,3 +17,23 @@
     flex-direction: column;
     align-items: center;
 }
+
+.ItemCount{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.btnCount{
+    width: 4rem;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}

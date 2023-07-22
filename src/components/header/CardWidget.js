@@ -1,5 +1,6 @@
 import { Minecart } from 'react-bootstrap-icons';
-import "../App.css";
+import "../../App.css";
+
 
 const CardWidget = () => {
     const totalProductos = 0;
