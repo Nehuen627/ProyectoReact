@@ -1,9 +1,11 @@
 import { Minecart } from 'react-bootstrap-icons';
 import "../../App.css";
-
+import { useCartContext } from '../../Context/CartContext';
 
 const CardWidget = () => {
-    const totalProductos = 0;
+    const {cartList} = useCartContext()
+    const totalProductos = cartList.length;
+    
     return (
         <div className='Carrito'>
             <Minecart/>

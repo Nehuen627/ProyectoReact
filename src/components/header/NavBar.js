@@ -12,28 +12,30 @@ const NavBar = () => {
         <Navbar collapseOnSelect expand="lg" className="navbar">
         <Container>
             <Navbar.Brand>
-                <NavLink to="" className="links">El Kiosco Gamer</NavLink>
+                <NavLink to="/" className="links" activeClassName="active-link">El Kiosco Gamer</NavLink>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 <Nav.Link>
-                    <NavLink to=""className="links">Home</NavLink>
+                    <NavLink to="/"className="links" activeClassName="active-link">Home</NavLink>
                 </Nav.Link>
                 <NavDropdown title="Artículos" id="collasible-nav-dropdown">
                     <NavDropdown.Item>
-                        <NavLink to="/category/juegos"className="links">Juegos</NavLink>
+                        <NavLink to="/category/juegos"className="links" activeClassName="active-link">Juegos</NavLink>
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <NavLink to="/category/perifericos"className="links">Perifericos</NavLink>
+                        <NavLink to="/category/perifericos"className="links" activeClassName="active-link">Perifericos</NavLink>
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <NavLink to="/general"className="links">General</NavLink>
+                        <NavLink to="/general"className="links" activeClassName="active-link">General</NavLink>
                     </NavDropdown.Item>
             </NavDropdown>
             </Nav>
             <Nav>
-            <CardWidget/>
+                <NavLink to="/cart">
+                    <CardWidget/>
+                </NavLink>
             </Nav>
             <Button id="loginBtn" className='bg-dark btnLogin'>Login</Button>
         </Navbar.Collapse>
